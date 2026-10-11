@@ -1,10 +1,10 @@
-# 📡 Analog Modülasyon Laboratuvarı (AM, FM, PM Simülasyonu & Spektral Analiz)
+# Analog Modülasyon Laboratuvarı (AM, FM, PM Simülasyonu & Spektral Analiz)
 
 Bu proje; analog haberleşme sistemlerinin temelini oluşturan **Genlik Modülasyonu (AM)**, **Frekans Modülasyonu (FM)** ve **Faz Modülasyonu (PM)** tekniklerinin Python ortamında matematiksel olarak modellenmesi, zaman ve frekans domenindeki (FFT) davranışlarının simüle edilmesi ve karşılaştırmalı güç/spektrum analizlerinin gerçekleştirilmesi amacıyla geliştirilmiştir.
 
 ---
 
-## 🎯 Projenin Amacı ve Öne Çıkan Özellikleri
+## Projenin Amacı ve Öne Çıkan Özellikleri
 
 - **Fourier Serisi ile Mesaj Sinyali Sentezi:** Kare dalga mesaj sinyali doğrudan hazır fonksiyonlar yerine, Fourier serisi açılımı kullanılarak **9999 tekil harmonik** toplanarak matematiksel olarak sıfırdan sentezlenmiştir.
 - **Diferansiyel ve İntegral Bazlı Modülasyon:** FM sinyalinin faz açısı için mesaj sinyalinin analitik integrali eş zamanlı hesaplanarak sürekli faz (continuous phase) korunmuş, PM sinyalinde ise doğrudan faz modülasyonu uygulanarak faz sıçramaları incelenmiştir.
@@ -14,7 +14,7 @@ Bu proje; analog haberleşme sistemlerinin temelini oluşturan **Genlik Modülas
 
 ---
 
-## 📐 Matematiksel Modelleme & Teori
+## Matematiksel Modelleme & Teori
 
 ### 1. Kare Dalga Mesaj Sinyali (Fourier Yaklaşımı)
 Kare dalga mesaj sinyali $s_m(t)$, tekil harmoniklerin süperpozisyonu ile oluşturulmuştur:
@@ -38,7 +38,7 @@ $$s_{PM}(t) = A_c \cos(2\pi f_c t + k_p s_m(t))$$
 
 ---
 
-## 📊 Grafik ve Simülasyon Çıktıları
+## Grafik ve Simülasyon Çıktıları
 
 Kod çalıştırıldığında Matplotlib arayüzü üzerinde aşağıdaki analiz pencereleri oluşturulur:
 
@@ -52,7 +52,7 @@ Kod çalıştırıldığında Matplotlib arayüzü üzerinde aşağıdaki analiz
 
 ---
 
-## 🚀 Kurulum ve Çalıştırma
+## Kurulum ve Çalıştırma
 
 ### Gereksinimler
 - Python 3.8 veya üzeri
@@ -79,7 +79,7 @@ python lab.py
 
 ---
 
-## 📁 Proje Dosya Yapısı
+## Proje Dosya Yapısı
 
 ```text
 ├── lab.py              # Fourier serisi, AM/FM/PM modülasyonu ve FFT analiz kodları
@@ -90,7 +90,7 @@ python lab.py
 
 ---
 
-## 👤 Hazırlayan
+## Hazırlayan
 
 - **Efe Anıl Arslan**
 - Haberleşme Mühendisliği / Analog Haberleşme Laboratuvarı
